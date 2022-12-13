@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CategoriasLogo</name>
+   <tag></tag>
+   <elementGuidId>8ae25845-a963-40d2-ae0e-8062710c279a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiendas'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>9dfa097d-20d0-40cd-9a8c-51aa9b6f24ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>c35c39c7-8dc1-4621-aa66-8daf4e9945fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>6c702790-557a-458c-8e93-8b02f94bc549</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>e3a56772-0e08-4531-a086-8c515cdf5b3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 16 16</value>
+      <webElementGuid>4b1275f7-85a6-4557-a71e-49e5ac3cb8ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>easycl-mega-menu-0-x-triggerButtonIcon easycl-mega-menu-0-x-triggerButtonIcon--active </value>
+      <webElementGuid>c8fa2f69-b8d3-4a79-b420-aba2d07e064f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>a415be0e-19b3-447d-8494-06d312f88e2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns:xlink</name>
+      <type>Main</type>
+      <value>http://www.w3.org/1999/xlink</value>
+      <webElementGuid>6cdc0f18-c6b1-40dd-8024-8dea129c1504</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;bg-base&quot;]/div[@class=&quot;render-container render-route-store-home&quot;]/div[@class=&quot;render-provider&quot;]/div[@class=&quot;vtex-store__template bg-base&quot;]/div[@class=&quot;flex flex-column min-vh-100 w-100&quot;]/div[@class=&quot;vtex-flex-layout-0-x-flexRow vtex-flex-layout-0-x-flexRow--stickyDesktop&quot;]/section[@class=&quot;vtex-store-components-3-x-container ph3 ph5-m ph2-xl mw9 center&quot;]/div[@class=&quot;flex mt0 mb0 pt0 pb0    justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--stickyDesktop items-stretch w-100&quot;]/div[@class=&quot;pr0 items-stretch vtex-flex-layout-0-x-stretchChildrenWidth   flex&quot;]/div[@class=&quot;vtex-flex-layout-0-x-flexCol  ml0 mr0 pl0 pr0      flex flex-column h-100 w-100&quot;]/div[@class=&quot;vtex-flex-layout-0-x-flexColChild pb0&quot;]/div[@class=&quot;vtex-flex-layout-0-x-flexRow vtex-flex-layout-0-x-flexRow--logo&quot;]/div[@class=&quot;flex mt0 mb0 pt0 pb0    justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--logo items-stretch w-100&quot;]/div[@class=&quot;pr0 items-stretch    flex&quot;]/nav[@class=&quot;vtex-menu-2-x-menuContainerNav vtex-menu-2-x-menuContainerNav--barMenuCategory&quot;]/ul[@class=&quot;vtex-menu-2-x-menuContainer vtex-menu-2-x-menuContainer--barMenuCategory list flex pl0 mv0 flex-row&quot;]/button[@class=&quot;easycl-mega-menu-0-x-triggerContainer pointer&quot;]/svg[@class=&quot;easycl-mega-menu-0-x-triggerButtonIcon easycl-mega-menu-0-x-triggerButtonIcon--active&quot;]</value>
+      <webElementGuid>ae7fb7ac-5709-45a3-84be-1d89c9d3e493</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiendas'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>c4401fdf-b304-45ab-aafb-5ad77c52f275</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis compras'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>92e3b49f-e499-4b5d-810e-5659be328483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categorías'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>421beeeb-5ff8-4384-bddd-2c16a8214d38</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
