@@ -31,5 +31,7 @@ WebUI.setText(findTestObject('DataFromExcel/Current address'), Current_Address)
 
 WebUI.setText(findTestObject('DataFromExcel/Permanent Address'), Permanent_Address)
 
+WebUI.delay(10)
+
 WebUI.closeBrowser()
 

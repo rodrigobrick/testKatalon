@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demre.cl/publicaciones/modelos-resoluciones-pruebas')
 
+WebUI.maximizeWindow()
+
 WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('DownUpload/Modelo de Prueba'))
@@ -29,9 +31,21 @@ WebUI.click(findTestObject('DownUpload/DownloadPDF'))
 
 WebUI.navigateToUrl('https://demoqa.com/upload-download')
 
-WebUI.uploadFile(findTestObject('DownUpload/UploadFile'), '')
+WebUI.click(findTestObject('DownUpload/UploadFile'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.acceptAlert()
+'custom keyword para encontrar el archivo'
+CustomKeywords.'com.busquedaRuta.busquedaRutaFile.BusquedaFile'()
+
+try {
+    elementoSubido = WebUI.verifyElementVisible(findTestObject('DownUpload/Validacion'), FailureHandling.STOP_ON_FAILURE)
+
+    print('ELEMENTO SUBIDO CORRECTAMENTE \n')
+
+    WebUI.takeScreenshot('C:\\Users\\Public\\elemento subido.png')
+}
+catch (Exception e) {
+    print('ERROR: \n' + e)
+} 
 
 WebUI.delay(5)
 

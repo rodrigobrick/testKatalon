@@ -21,11 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/droppable')
 
+WebUI.maximizeWindow()
+
 'object= objeto a tomar // input=lugar donde se debe dejar'
 WebUI.dragAndDropToObject(findTestObject('Object Repository/drag_drop/drag'), findTestObject('Object Repository/drag_drop/drop'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(10)
+
+WebUI.takeScreenshot('C:\\Users\\Public\\dragdrop.png')
 
 WebUI.delay(2)
 

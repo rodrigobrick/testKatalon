@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "E4D7CF23DE42BF3C12CB447ADFE37A2C",
+  "keywordClasses": [
+    {
+      "name": "com.busquedaRuta.busquedaRutaFile",
+      "keywordMethods": [
+        {
+          "name": "BusquedaFile",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

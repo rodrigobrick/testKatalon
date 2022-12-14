@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.easy.cl/')
 
+WebUI.maximizeWindow()
+
 'espera para que la pagina cargue'
 WebUI.waitForPageLoad(10)
 
@@ -47,6 +49,8 @@ WebUI.click(findTestObject('Easy/Cajas Organizadoras'))
 'espera para que la pagina cargue'
 WebUI.waitForPageLoad(10)
 
+WebUI.takeScreenshot('C:\\Users\\Public\\cajas organizadoras.png')
+
 WebUI.verifyElementPresent(findTestObject('Easy/Añadir al carro'), 5)
 
 WebUI.click(findTestObject('Easy/Añadir al carro'))
@@ -59,6 +63,7 @@ urlEasy = WebUI.getUrl()
 
 if (urlEasy == 'https://www.easy.cl/checkout/#/cart') {
     println('URL CORRECTA')
+	WebUI.takeScreenshot('C:\\Users\\Public\\carro.png')
 } else {
     println('URL CORRECTA')
 }
