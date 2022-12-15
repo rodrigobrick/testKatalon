@@ -44,7 +44,7 @@ text = WebUI.getText(findTestObject('Easy/ContenidoMuebles'))
 
 print('Contenido Muebles: \n' + text)
 
-WebUI.scrollToPosition(10, 200)
+WebUI.scrollToPosition(10, 10)
 
 WebUI.click(findTestObject('Easy/Cajas Organizadoras'))
 
@@ -76,6 +76,8 @@ WebUI.click(findTestObject('Easy/Ir a comprar'))
 WebUI.waitForPageLoad(10)
 
 WebUI.navigateToUrl('https://www.easy.cl/checkout/#/cart')
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

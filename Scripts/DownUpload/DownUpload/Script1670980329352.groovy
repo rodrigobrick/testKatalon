@@ -31,6 +31,8 @@ WebUI.click(findTestObject('DownUpload/DownloadPDF'))
 
 WebUI.navigateToUrl('https://demoqa.com/upload-download')
 
+WebUI.waitForPageLoad(10)
+
 WebUI.click(findTestObject('DownUpload/UploadFile'), FailureHandling.STOP_ON_FAILURE)
 
 'custom keyword para encontrar el archivo'
@@ -43,11 +45,11 @@ try {
 
     WebUI.takeScreenshot('C:\\Users\\Public\\elemento subido.png')
 }
-catch (Exception e) {
-    print('ERROR: \n' + e)
+catch (Exception error) {
+    print('ERROR: \n' + error)
 } 
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
