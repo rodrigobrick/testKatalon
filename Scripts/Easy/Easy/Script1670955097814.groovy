@@ -36,13 +36,15 @@ WebUI.click(findTestObject('Easy/Muebles'))
 'espera para que la pagina cargue'
 WebUI.waitForPageLoad(10)
 
+WebUI.scrollToPosition(10, 10)
+
 WebUI.click(findTestObject('Easy/Ver mas'))
 
 text = WebUI.getText(findTestObject('Easy/ContenidoMuebles'))
 
 print('Contenido Muebles: \n' + text)
 
-WebUI.scrollToPosition(10, 10)
+WebUI.scrollToPosition(10, 200)
 
 WebUI.click(findTestObject('Easy/Cajas Organizadoras'))
 
@@ -63,7 +65,8 @@ urlEasy = WebUI.getUrl()
 
 if (urlEasy == 'https://www.easy.cl/checkout/#/cart') {
     println('URL CORRECTA')
-	WebUI.takeScreenshot('C:\\Users\\Public\\carro.png')
+
+    WebUI.takeScreenshot('C:\\Users\\Public\\carro.png')
 } else {
     println('URL CORRECTA')
 }

@@ -23,6 +23,15 @@ WebUI.navigateToUrl('https://demoqa.com/text-box')
 
 WebUI.waitForPageLoad(10)
 
+'definiendo cada array'
+def names = []
+def email = []
+def currentAddress = []
+def permanentAddress = []
+
+'keyword para rellenar arrays para comprobacion'
+CustomKeywords.'com.fillArrays.fillArrays.fillArray'(names, email, currentAddress, permanentAddress)
+
 WebUI.setText(findTestObject('DataFromExcel/Full Name'), Full_Name)
 
 WebUI.setText(findTestObject('DataFromExcel/Email'), Email)
@@ -31,7 +40,26 @@ WebUI.setText(findTestObject('DataFromExcel/Current address'), Current_Address)
 
 WebUI.setText(findTestObject('DataFromExcel/Permanent Address'), Permanent_Address)
 
-WebUI.delay(10)
+for (int i = 1; i <= 5; i++) {
+	if ((names[i]) == Full_Name) {
+		println('el dato que se muestra es correcto: ' + (names[i]))
+		WebUI.takeScreenshot('C:\\Users\\Public\\'+names[i]+'.png')
+	}
+	
+	if ((email[i]) == Email) {
+		println('el dato que se muestra es correcto: ' + (email[i]))
+	}
+	
+	if ((currentAddress[i]) == Current_Address) {
+		println('el dato que se muestra es correcto: ' + (currentAddress[i]))
+	}
+	
+	if ((permanentAddress[i]) == Permanent_Address) {
+		println('el dato que se muestra es correcto: ' + (permanentAddress[i]))
+	}
+}
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
